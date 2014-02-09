@@ -1,0 +1,26 @@
+body{
+    
+}
+
+#container > span {
+    text-align: center;  
+    vertical-align: middle;
+}
+
+#container > span > a > span {
+   // height: 166px;
+    vertical-align: middle;
+    display: inline-flex;
+}
+
+#container > span > a > * {
+    margin: 10px 0;
+    //border: solid #666666;
+}
+#container > span > a > span > span {
+  //  height: 160px;
+    margin: 0;
+}
+#container img {
+    height: 160px;
+}
