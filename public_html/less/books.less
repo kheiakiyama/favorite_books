@@ -1,0 +1,91 @@
+body{
+    background: url('../image/light_grey.png');
+}
+
+@image_height: 280px;
+@image_margin: 15px;
+@tile_margin: 5px;
+
+#container {
+    min-width: 480px;
+    
+    & > .row {
+        .label-info {
+            display: inline-block;
+            width: 100%;
+            height: 100%;
+            border-radius: 10px;
+        }
+
+        & > span {
+            margin: @tile_margin 0;
+            padding: 0 @tile_margin;
+            height: @image_height + @image_margin * 2;
+        }
+        
+        & > span span.inner {
+            text-align: center;
+            display: inline-block;
+            padding: @image_margin;
+            width: 100%;
+            height: @image_height + @image_margin * 2;
+            border-radius: 10px;
+        }
+        & > a {
+            display: inline-block;
+
+            & > * {
+                margin: @image_margin 0;
+            }
+
+            & > span {
+                height: @image_height;
+                padding: 0;
+
+                & > span {
+                  margin: 0;
+                  white-space: pre;           /* CSS 2.0 */
+                  white-space: pre-wrap;      /* CSS 2.1 */
+                  white-space: pre-line;      /* CSS 3.0 */
+                  white-space: -pre-wrap;     /* Opera 4-6 */
+                  white-space: -o-pre-wrap;   /* Opera 7 */
+                  white-space: -moz-pre-wrap; /* Mozilla */
+                  white-space: -hp-pre-wrap;  /* HP Printers */
+                  word-wrap: break-word;      /* IE 5+ */
+                  height: @image_height;
+                }
+            }
+        }
+
+        span.text span {
+            background-color: #eee;
+            margin: 20px;
+        }
+        span.red {
+            background-color: #D80073;
+        }
+        span.blue {
+            background-color: #1BA1E2;
+        }
+        span.purple {
+            background-color: #A200FF;
+        }
+        span.green {
+            background-color: #00ABA9;
+        }
+        span.orange {
+            background-color: #F09609;
+        }
+        span.lightgreen {
+            background-color: #A2C139;
+        }
+        span.pink {
+            background-color: #E671B8;
+        }
+
+    }
+    img {
+        height: @image_height;
+    }
+}
+

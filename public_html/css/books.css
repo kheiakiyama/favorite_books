@@ -1,26 +1,119 @@
-body{
-    
+/* line 1, /Applications/XAMPP/xamppfiles/htdocs/engineerbooks/public_html/less/books.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/XAMPP\/xamppfiles\/htdocs\/engineerbooks\/public_html\/less\/books\.less}line{font-family:\000031}}
+body {
+  background: url('../image/light_grey.png');
 }
-
-#container > span {
-    text-align: center;  
-    vertical-align: middle;
+/* line 9, /Applications/XAMPP/xamppfiles/htdocs/engineerbooks/public_html/less/books.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/XAMPP\/xamppfiles\/htdocs\/engineerbooks\/public_html\/less\/books\.less}line{font-family:\000039}}
+#container {
+  min-width: 480px;
 }
-
-#container > span > a > span {
-   // height: 166px;
-    vertical-align: middle;
-    display: inline-flex;
+/* line 13, /Applications/XAMPP/xamppfiles/htdocs/engineerbooks/public_html/less/books.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/XAMPP\/xamppfiles\/htdocs\/engineerbooks\/public_html\/less\/books\.less}line{font-family:\0000313}}
+#container > .row .label-info {
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
 }
-
-#container > span > a > * {
-    margin: 10px 0;
-    //border: solid #666666;
+/* line 20, /Applications/XAMPP/xamppfiles/htdocs/engineerbooks/public_html/less/books.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/XAMPP\/xamppfiles\/htdocs\/engineerbooks\/public_html\/less\/books\.less}line{font-family:\0000320}}
+#container > .row > span {
+  margin: 5px 0;
+  padding: 0 5px;
+  height: 310px;
 }
-#container > span > a > span > span {
-  //  height: 160px;
-    margin: 0;
+/* line 26, /Applications/XAMPP/xamppfiles/htdocs/engineerbooks/public_html/less/books.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/XAMPP\/xamppfiles\/htdocs\/engineerbooks\/public_html\/less\/books\.less}line{font-family:\0000326}}
+#container > .row > span span.inner {
+  text-align: center;
+  display: inline-block;
+  padding: 15px;
+  width: 100%;
+  height: 310px;
+  border-radius: 10px;
 }
+/* line 34, /Applications/XAMPP/xamppfiles/htdocs/engineerbooks/public_html/less/books.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/XAMPP\/xamppfiles\/htdocs\/engineerbooks\/public_html\/less\/books\.less}line{font-family:\0000334}}
+#container > .row > a {
+  display: inline-block;
+}
+/* line 37, /Applications/XAMPP/xamppfiles/htdocs/engineerbooks/public_html/less/books.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/XAMPP\/xamppfiles\/htdocs\/engineerbooks\/public_html\/less\/books\.less}line{font-family:\0000337}}
+#container > .row > a > * {
+  margin: 15px 0;
+}
+/* line 41, /Applications/XAMPP/xamppfiles/htdocs/engineerbooks/public_html/less/books.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/XAMPP\/xamppfiles\/htdocs\/engineerbooks\/public_html\/less\/books\.less}line{font-family:\0000341}}
+#container > .row > a > span {
+  height: 280px;
+  padding: 0;
+}
+/* line 45, /Applications/XAMPP/xamppfiles/htdocs/engineerbooks/public_html/less/books.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/XAMPP\/xamppfiles\/htdocs\/engineerbooks\/public_html\/less\/books\.less}line{font-family:\0000345}}
+#container > .row > a > span > span {
+  margin: 0;
+  white-space: pre;
+  /* CSS 2.0 */
+  white-space: pre-wrap;
+  /* CSS 2.1 */
+  white-space: pre-line;
+  /* CSS 3.0 */
+  white-space: -pre-wrap;
+  /* Opera 4-6 */
+  white-space: -o-pre-wrap;
+  /* Opera 7 */
+  white-space: -moz-pre-wrap;
+  /* Mozilla */
+  white-space: -hp-pre-wrap;
+  /* HP Printers */
+  word-wrap: break-word;
+  /* IE 5+ */
+  height: 280px;
+}
+/* line 60, /Applications/XAMPP/xamppfiles/htdocs/engineerbooks/public_html/less/books.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/XAMPP\/xamppfiles\/htdocs\/engineerbooks\/public_html\/less\/books\.less}line{font-family:\0000360}}
+#container > .row span.text span {
+  background-color: #eee;
+  margin: 20px;
+}
+/* line 64, /Applications/XAMPP/xamppfiles/htdocs/engineerbooks/public_html/less/books.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/XAMPP\/xamppfiles\/htdocs\/engineerbooks\/public_html\/less\/books\.less}line{font-family:\0000364}}
+#container > .row span.red {
+  background-color: #D80073;
+}
+/* line 67, /Applications/XAMPP/xamppfiles/htdocs/engineerbooks/public_html/less/books.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/XAMPP\/xamppfiles\/htdocs\/engineerbooks\/public_html\/less\/books\.less}line{font-family:\0000367}}
+#container > .row span.blue {
+  background-color: #1BA1E2;
+}
+/* line 70, /Applications/XAMPP/xamppfiles/htdocs/engineerbooks/public_html/less/books.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/XAMPP\/xamppfiles\/htdocs\/engineerbooks\/public_html\/less\/books\.less}line{font-family:\0000370}}
+#container > .row span.purple {
+  background-color: #A200FF;
+}
+/* line 73, /Applications/XAMPP/xamppfiles/htdocs/engineerbooks/public_html/less/books.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/XAMPP\/xamppfiles\/htdocs\/engineerbooks\/public_html\/less\/books\.less}line{font-family:\0000373}}
+#container > .row span.green {
+  background-color: #00ABA9;
+}
+/* line 76, /Applications/XAMPP/xamppfiles/htdocs/engineerbooks/public_html/less/books.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/XAMPP\/xamppfiles\/htdocs\/engineerbooks\/public_html\/less\/books\.less}line{font-family:\0000376}}
+#container > .row span.orange {
+  background-color: #F09609;
+}
+/* line 79, /Applications/XAMPP/xamppfiles/htdocs/engineerbooks/public_html/less/books.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/XAMPP\/xamppfiles\/htdocs\/engineerbooks\/public_html\/less\/books\.less}line{font-family:\0000379}}
+#container > .row span.lightgreen {
+  background-color: #A2C139;
+}
+/* line 82, /Applications/XAMPP/xamppfiles/htdocs/engineerbooks/public_html/less/books.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/XAMPP\/xamppfiles\/htdocs\/engineerbooks\/public_html\/less\/books\.less}line{font-family:\0000382}}
+#container > .row span.pink {
+  background-color: #E671B8;
+}
+/* line 87, /Applications/XAMPP/xamppfiles/htdocs/engineerbooks/public_html/less/books.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/XAMPP\/xamppfiles\/htdocs\/engineerbooks\/public_html\/less\/books\.less}line{font-family:\0000387}}
 #container img {
-    height: 160px;
+  height: 280px;
 }

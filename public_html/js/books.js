@@ -1,38 +1,43 @@
 $(document).ready(function () {
     var appendContent = function (body, item) {
         var container = $("<span />");
-        var link = $('<a href="' + item.url + '"/>');
+        var inner_container = $('<span class="inner" />');
+        var link = $('<a href="' + item.url + '" />');
         var img = $('<img src="' + item.url + '" />');
         if (1 === Math.floor( Math.random() * 3 )) {
             //link.addClass("row");
-            container.addClass("col-md-4");
+            container.addClass("col-md-6 col-xs-12");
             var img_container = $("<span />");
-            img_container.addClass("col-md-6");
+            img_container.addClass("col-md-6 col-xs-6");
             img_container.append(img);
             link.append(img_container);
             var text = $('<span />');
             text.html(item.title);
             var text_container = $("<span />");
-            text_container.addClass("col-md-6");
+            text_container.addClass("col-md-6 col-xs-6 text");
             text_container.append(text);
             link.append(text_container);
         } else {
-            container.addClass("col-md-2");
+            container.addClass("col-md-3 col-xs-6");
             link.append(img);
         }
-        container.append(link);
+        if (item.theme) {
+            inner_container.addClass(item.theme);
+        }
+        inner_container.append(link);
+        container.append(inner_container);
         body.append(container);
     };
     
     var appendSlideLink = function (body, nowPage, nextPage, clickFunc) {
         var container = $("<span />");
-        var link = $('<span />');
+        var link = $('<span class="label label-info"/>');
         link.html("Now: " + nowPage.name + "<br>Next > " + nextPage.name);
         link.click(function () { 
             clickFunc();
         });
         container.append(link);
-        container.addClass("col-md-2");
+        container.addClass("col-md-3 col-xs-6");
         body.append(container);
     };
     

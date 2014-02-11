@@ -7,67 +7,79 @@
             "slide": [
                 {
                     "asin": "415209267X",
+                    "theme": "red",
                     "url": "http://ecx.images-amazon.com/images/I/51Uwn-WBcTL.jpg",
                     "title": "小さなチーム、大きな仕事〔完全版〕"
                 },
                 {
                     "asin": "4140815760",
+                    "theme": "blue",
                     "url": "http://ecx.images-amazon.com/images/I/514L3hWq-eL.jpg",
                     "title": "MAKERS―21世紀の産業革命が始まる [単行本]  "
                   
                 },
                 {
                     "asin": "4274065979",
+                    "theme": "purple",
                     "url": "http://ecx.images-amazon.com/images/I/511SV9NXW2L.jpg",
                     "title": "ハッカーと画家 コンピュータ時代の創造者たち"
                   
                 },
                 {
                     "asin": "4822248976",
+                    "theme": "lightgreen",
                     "url": "http://ecx.images-amazon.com/images/I/51noBxGCoJL.jpg",
                     "title": "リーン・スタートアップ"
                   
                 },
                 {
                     "asin": "4873116309",
+                    "theme": "orange",
                     "url": "http://ecx.images-amazon.com/images/I/41SlY0zvpKL.jpg",
                     "title": "Team Geek ―Googleのギークたちはいかにしてチームを作るのか"
                   
                 },
                 {
                     "asin": "404275001X",
+                    "theme": "pink",
                     "url": "http://ecx.images-amazon.com/images/I/51GoJJj1UOL.jpg",
                     "title": "アルケミスト―夢を旅した少年"
                   
                 },
                 {
                     "asin": "4774140198",
+                    "theme": "green",
                     "url": "http://ecx.images-amazon.com/images/I/51Qdglo4CnL.jpg",
                     "title": "ソフトウェア開発で伸びる人、伸びない人"
                   
                 },
                 {
                     "asin": "4833420163",
+                    "theme": "lightgreen",
                     "url": "http://ecx.images-amazon.com/images/I/51q5jtSKEQL.jpg",
                     "title": "ワーク・シフト ― 孤独と貧困から自由になる働き方の未来図〈2025〉"
                 },
                 {
                     "asin": "4806138401",
-                    "url": "http://ecx.images-amazon.com/images/I/41wPqX7Iq6L.jpg",
+                    "theme": "purple",
+                    "url": "http://ecx.images-amazon.com/images/I/51Dn3nrwX9L.jpg",
                     "title": "ドラッカーと会計の話をしよう"
                 },
                 {
                     "asin": "4048865390",
+                    "theme": "blue",
                     "url": "http://ecx.images-amazon.com/images/I/41U-dE2N4RL.jpg",
                     "title": "僕がアップルで学んだこと 環境を整えれば人が変わる、組織が変わる"
                 },
                 {
                     "asin": "4774143847",
+                    "theme": "pink",
                     "url": "http://ecx.images-amazon.com/images/I/51-XOvzPXbL.jpg",
                     "title": "プログラマー”まだまだ”現役続行"
                 },
                 {
                     "asin": "4040800036",
+                    "theme": "orange",
                     "url": "http://ecx.images-amazon.com/images/I/41Zl0FPAZGL.jpg",
                     "title": "ルールを変える思考法"
                 }
