@@ -4,8 +4,7 @@ $(document).ready(function () {
         var inner_container = $('<span class="inner" />');
         var link = $('<a href="' + item.url + '" />');
         var img = $('<img src="' + item.url + '" />');
-        if (1 === Math.floor( Math.random() * 3 )) {
-            //link.addClass("row");
+        if (-1 === Math.floor( Math.random() * 3 )) {
             container.addClass("col-md-6 col-xs-12");
             var img_container = $("<span />");
             img_container.addClass("col-md-6 col-xs-6");
@@ -32,21 +31,23 @@ $(document).ready(function () {
     var appendSlideLink = function (body, nowPage, nextPage, clickFunc) {
         var container = $("<span />");
         var link = $('<span class="label label-info"/>');
-        link.html("Now: " + nowPage.name + "<br>Next > " + nextPage.name);
+        link.html(nowPage.name);
         link.click(function () { 
             clickFunc();
         });
         container.append(link);
-        container.addClass("col-md-3 col-xs-6");
+        container.addClass("col-md-3 col-xs-6 label");
         body.append(container);
     };
     
     var changeSlide = function (body, slides, slideIndex) {
         $.each(slides, function (index, slide) {
             if (index === slideIndex) return;
-            slide.hide();
+            slide.removeClass('active');
+            slide.children(':not(".label")').hide();
         });
-        slides[slideIndex].fadeIn(1500);
+        slides[slideIndex].children(':not(".label")').fadeIn(1500);
+        slides[slideIndex].addClass('active');
     };
     
     var body = $("#container");
@@ -54,24 +55,23 @@ $(document).ready(function () {
         type: "get",
         dataType: "json",
         success: function (response) {
-            var slides = [], slideIndex = 0;
+            var slides = [];
+            var row = $('<span class="row" />');
             $.each(response.contents, function (index, content) {
-                var slide = $('<div class="row" />');
+                var slide = $('<span class="" />');
                 var nextIndex = index < response.contents.length - 1 ? index + 1 : 0;
                 var nextPage = response.contents[nextIndex].page;
                 appendSlideLink(slide, content.page, nextPage, function () { 
-                    slideIndex++;
-                    if (slideIndex >= slides.length)
-                        slideIndex = 0;
-                    changeSlide(body, slides, slideIndex);
+                    changeSlide(body, slides, index);
                 });
                 $.each(content.slide, function (index2, item) {
                     appendContent(slide, item);
                 });
                 slides.push(slide);
-                body.append(slide);
+                row.append(slide);
             });
-            changeSlide(body, slides, slideIndex);
+            body.append(row);
+            changeSlide(body, slides, 0);
         }
     });
     
