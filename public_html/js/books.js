@@ -41,13 +41,14 @@ $(document).ready(function () {
     };
     
     var changeSlide = function (body, slides, slideIndex) {
-        $.each(slides, function (index, slide) {
-            if (index === slideIndex) return;
+        var slide = slides[slideIndex];
+        if (slide.hasClass("active")) {
             slide.removeClass('active');
             slide.children(':not(".label")').hide();
-        });
-        slides[slideIndex].children(':not(".label")').fadeIn(1500);
-        slides[slideIndex].addClass('active');
+        } else {
+            slide.addClass('active');
+            slide.children(':not(".label")').fadeIn(1500);
+        }
     };
     
     var body = $("#container");
@@ -71,7 +72,9 @@ $(document).ready(function () {
                 row.append(slide);
             });
             body.append(row);
-            changeSlide(body, slides, 0);
+            $.each(slides, function (index, slide) {
+                slide.children(':not(".label")').hide();
+            });
         }
     });
     
