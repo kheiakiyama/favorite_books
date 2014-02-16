@@ -5,7 +5,7 @@ $(document).ready(function () {
         if (item.read) {
             inner_container.addClass('read');
         }
-        var link = $('<a href="' + item.url + '" />');
+        var link = $('<a href=http://www.amazon.co.jp/gp/product/' + item.asin + ' target="_blank" />');
         var img = $('<img src="' + item.url + '" />');
         if (-1 === Math.floor( Math.random() * 3 )) {
             container.addClass("col-md-6 col-xs-12");
