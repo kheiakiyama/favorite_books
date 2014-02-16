@@ -2,6 +2,7 @@ body{
     background: url('../image/light_grey.png');
 }
 
+@tile_height: 275px;
 @image_height: 240px;
 @image_margin: 15px;
 @tile_margin: 5px;
@@ -12,16 +13,22 @@ body{
     & > .row {
         & > span {
             & > span {
-                height: @image_height + @image_margin * 2;
+                height: @tile_height + @image_margin * 2;
                 padding: 0 @tile_margin;
                 margin: @tile_margin 0;
 
                 span.inner {
                     text-align: center;
                     display: inline-block;
-                    padding: @image_margin;
+                    padding: @image_margin + 35 @image_margin @image_margin @image_margin;
                     width: 100%;
                     border-radius: 10px;
+    
+                    &.read {
+                        background-image: url("../image/favorite.png");
+                        background-repeat: no-repeat;
+                        background-position: 15px 10px;
+                    }
                 }
             }
 
@@ -45,7 +52,7 @@ body{
                 cursor: pointer;
 
                 .expandstate {
-                    margin-top: 70px;
+                    margin-top: 85px;
                     background-image: url("../image/right.png");
                     height: 66px;
                     width: 66px;
@@ -78,7 +85,7 @@ body{
             }
 
             & > span {
-                height: @image_height;
+                height: @tile_height;
                 padding: 0;
 
                 & > span {

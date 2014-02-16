@@ -2,6 +2,9 @@ $(document).ready(function () {
     var appendContent = function (body, item) {
         var container = $("<span />");
         var inner_container = $('<span class="inner" />');
+        if (item.read) {
+            inner_container.addClass('read');
+        }
         var link = $('<a href="' + item.url + '" />');
         var img = $('<img src="' + item.url + '" />');
         if (-1 === Math.floor( Math.random() * 3 )) {

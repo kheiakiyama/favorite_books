@@ -8,6 +8,7 @@
                 {
                     "asin": "415209267X",
                     "theme": "lightgreen",
+                    "read": true,
                     "url": "http://ecx.images-amazon.com/images/I/51Uwn-WBcTL.jpg",
                     "title": "小さなチーム、大きな仕事〔完全版〕"
                 },
@@ -28,6 +29,7 @@
                 {
                     "asin": "4873116309",
                     "theme": "red",
+                    "read": true,
                     "url": "http://ecx.images-amazon.com/images/I/41SlY0zvpKL.jpg",
                     "title": "Team Geek ―Googleのギークたちはいかにしてチームを作るのか"
                   
@@ -35,6 +37,7 @@
                 {
                     "asin": "4048865390",
                     "theme": "blue",
+                    "read": true,
                     "url": "http://ecx.images-amazon.com/images/I/41U-dE2N4RL.jpg",
                     "title": "僕がアップルで学んだこと 環境を整えれば人が変わる、組織が変わる"
                 }
@@ -48,12 +51,14 @@
                 {
                     "asin": "4833420163",
                     "theme": "red",
+                    "read": true,
                     "url": "http://ecx.images-amazon.com/images/I/51q5jtSKEQL.jpg",
                     "title": "ワーク・シフト ― 孤独と貧困から自由になる働き方の未来図〈2025〉"
                 },
                 {
                     "asin": "4774140198",
                     "theme": "pink",
+                    "read": true,
                     "url": "http://ecx.images-amazon.com/images/I/51Qdglo4CnL.jpg",
                     "title": "ソフトウェア開発で伸びる人、伸びない人"
                   
@@ -61,6 +66,7 @@
                 {
                     "asin": "4774143847",
                     "theme": "lightgreen",
+                    "read": true,
                     "url": "http://ecx.images-amazon.com/images/I/51-XOvzPXbL.jpg",
                     "title": "プログラマー”まだまだ”現役続行"
                 }
@@ -74,6 +80,7 @@
                 {
                     "asin": "4140815760",
                     "theme": "red",
+                    "read": true,
                     "url": "http://ecx.images-amazon.com/images/I/514L3hWq-eL.jpg",
                     "title": "MAKERS―21世紀の産業革命が始まる [単行本]  "
                   
@@ -81,12 +88,14 @@
                 {
                     "asin": "4806138401",
                     "theme": "brown",
+                    "read": true,
                     "url": "http://ecx.images-amazon.com/images/I/51Dn3nrwX9L.jpg",
                     "title": "ドラッカーと会計の話をしよう"
                 },
                 {
                     "asin": "404275001X",
                     "theme": "pink",
+                    "read": true,
                     "url": "http://ecx.images-amazon.com/images/I/51GoJJj1UOL.jpg",
                     "title": "アルケミスト―夢を旅した少年"
                   
@@ -94,6 +103,7 @@
                 {
                     "asin": "4040800036",
                     "theme": "orange",
+                    "read": true,
                     "url": "http://ecx.images-amazon.com/images/I/41Zl0FPAZGL.jpg",
                     "title": "ルールを変える思考法"
                 }
@@ -107,6 +117,7 @@
                 {
                     "asin": "4774142042",
                     "theme": "pink",
+                    "read": true,
                     "url": "http://ecx.images-amazon.com/images/I/51qo6pgjaSL.jpg",
                     "title": "Webを支える技術 -HTTP、URI、HTML、そしてREST"
                 },
@@ -119,6 +130,7 @@
                 {
                     "asin": "479732158X",
                     "theme": "orange",
+                    "read": true,
                     "url": "http://ecx.images-amazon.com/images/I/41Z8RKP8FBL.jpg",
                     "title": "欺術（ぎじゅつ）―史上最強のハッカーが明かす禁断の技法"
                 }
@@ -144,6 +156,7 @@
                 {
                     "asin": "4894713284",
                     "theme": "blue",
+                    "read": true,
                     "url": "http://ecx.images-amazon.com/images/I/413z-nHOErL.jpg",
                     "title": "プレゼンテーションzen"
                 }
@@ -163,6 +176,7 @@
                 {
                     "asin": "477415654X",
                     "theme": "orange",
+                    "read": true,
                     "url": "http://ecx.images-amazon.com/images/I/51nXP3TKXVL.jpg",
                     "title": "コーディングを支える技術 ~成り立ちから学ぶプログラミング作法"
                 },
@@ -188,30 +202,35 @@
                 {
                     "asin": "B00DIM6BMI",
                     "theme": "blue",
+                    "read": true,
                     "url": "http://ecx.images-amazon.com/images/I/51rxMxysGML.jpg",
                     "title": "SCRUM BOOT CAMP THE BOOK"
                 },
                 {
                     "asin": "4274066940",
                     "theme": "red",
+                    "read": true,
                     "url": "http://ecx.images-amazon.com/images/I/51YiZblziqL.jpg",
                     "title": "アジャイルプラクティス 達人プログラマに学ぶ現場開発者の習慣"
                 },
                 {
                     "asin": "4839924023",
                     "theme": "orange",
+                    "read": true,
                     "url": "http://ecx.images-amazon.com/images/I/51A8BTrHYxL.jpg",
                     "title": "アジャイルな見積りと計画づくり ~価値あるソフトウェアを育てる概念と技法~"
                 },
                 {
                     "asin": "4274068560",
                     "theme": "purple",
+                    "read": true,
                     "url": "http://ecx.images-amazon.com/images/I/51b4P511wTL.jpg",
                     "title": "アジャイルサムライ－達人開発者への道"
                 },
                 {
                     "asin": "4894712741",
                     "theme": "shockpink",
+                    "read": true,
                     "url": "http://ecx.images-amazon.com/images/I/41HTQ8ZP3AL.jpg",
                     "title": "達人プログラマー―システム開発の職人から名匠への道"
                 }
