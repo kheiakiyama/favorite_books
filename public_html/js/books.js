@@ -31,23 +31,26 @@ $(document).ready(function () {
     var appendSlideLink = function (body, nowPage, nextPage, clickFunc) {
         var container = $("<span />");
         var link = $('<span class="label label-info"/>');
-        link.html(nowPage.name);
+        link.html(nowPage.name + '<br>');
         link.click(function () { 
             clickFunc();
         });
         container.append(link);
+        var img = $('<span class="expandstate" />');
+        link.append(img);
         container.addClass("col-md-3 col-xs-6 label");
         body.append(container);
     };
     
     var changeSlide = function (body, slides, slideIndex) {
         var slide = slides[slideIndex];
-        if (slide.hasClass("active")) {
-            slide.removeClass('active');
-            slide.children(':not(".label")').hide();
+        if (slide.hasClass("active")) {                
+            slide.children(':not(".label")').fadeOut(1000, function () {
+                slide.removeClass('active');
+            });
         } else {
             slide.addClass('active');
-            slide.children(':not(".label")').fadeIn(1500);
+            slide.children(':not(".label")').fadeIn(1000);
         }
     };
     

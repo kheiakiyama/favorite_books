@@ -42,11 +42,31 @@ body{
                 white-space: -moz-pre-wrap; /* Mozilla */
                 white-space: -hp-pre-wrap;  /* HP Printers */
                 word-wrap: break-word;      /* IE 5+ */
+                cursor: pointer;
 
+                .expandstate {
+                    margin-top: 70px;
+                    background-image: url("../image/right.png");
+                    height: 66px;
+                    width: 66px;
+                    display: inline-block;
+                }
+
+                &:hover {
+                    background-color: lighten(#00ABA9, 3%);
+                }
             }
 
             &.active .label-info {
                 background-color: fadein(#1DC8C6, 50%);
+
+                .expandstate {
+                    background-image: url("../image/left.png");
+                }
+
+                &:hover {
+                    background-color: lighten(#1DC8C6, 3%);
+                }
             }
         }
 
@@ -82,27 +102,51 @@ body{
         }
         span.red {
             background-color: #E51400;
+            &:hover {
+                background-color: lighten(#E51400, 5%);
+            }
         }
         span.shockpink {
             background-color: #D80073;
+            &:hover {
+                background-color: lighten(#D80073, 5%);
+            }
         }
         span.blue {
             background-color: #1BA1E2;
+            &:hover {
+                background-color: lighten(#1BA1E2, 5%);
+            }
         }
         span.purple {
             background-color: #A200FF;
+            &:hover {
+                background-color: lighten(#A200FF, 5%);
+            }
         }
         span.brown {
             background-color: #A05000;
+            &:hover {
+                background-color: lighten(#A05000, 5%);
+            }
         }
         span.orange {
             background-color: #F09609;
+            &:hover {
+                background-color: lighten(#F09609, 5%);
+            }
         }
         span.lightgreen {
             background-color: #A2C139;
+            &:hover {
+                background-color: lighten(#A2C139, 5%);
+            }
         }
         span.pink {
             background-color: #E671B8;
+            &:hover {
+                background-color: lighten(#E671B8, 5%);
+            }
         }
 
     }
