@@ -3,11 +3,6 @@
 body {
   background: url('../image/light_grey.png');
 }
-/* line 10, /Applications/XAMPP/xamppfiles/htdocs/engineerbooks/public_html/less/books.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/XAMPP\/xamppfiles\/htdocs\/engineerbooks\/public_html\/less\/books\.less}line{font-family:\0000310}}
-#container {
-  min-width: 480px;
-}
 /* line 15, /Applications/XAMPP/xamppfiles/htdocs/engineerbooks/public_html/less/books.less */
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/XAMPP\/xamppfiles\/htdocs\/engineerbooks\/public_html\/less\/books\.less}line{font-family:\0000315}}
 #container > .row > span > span {

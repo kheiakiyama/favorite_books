@@ -7,22 +7,8 @@ $(document).ready(function () {
         }
         var link = $('<a href=http://www.amazon.co.jp/gp/product/' + item.asin + ' target="_blank" />');
         var img = $('<img src="' + item.url + '" />');
-        if (-1 === Math.floor( Math.random() * 3 )) {
-            container.addClass("col-md-6 col-xs-12");
-            var img_container = $("<span />");
-            img_container.addClass("col-md-6 col-xs-6");
-            img_container.append(img);
-            link.append(img_container);
-            var text = $('<span />');
-            text.html(item.title);
-            var text_container = $("<span />");
-            text_container.addClass("col-md-6 col-xs-6 text");
-            text_container.append(text);
-            link.append(text_container);
-        } else {
-            container.addClass("col-md-3 col-xs-6");
-            link.append(img);
-        }
+        container.addClass("col-md-3 col-sm-4 col-xs-12");
+        link.append(img);
         if (item.theme) {
             inner_container.addClass(item.theme);
         }
@@ -41,7 +27,7 @@ $(document).ready(function () {
         container.append(link);
         var img = $('<span class="expandstate" />');
         link.append(img);
-        container.addClass("col-md-3 col-xs-6 label");
+        container.addClass("col-md-3 col-sm-4 col-xs-12 label");
         body.append(container);
     };
     
@@ -83,5 +69,4 @@ $(document).ready(function () {
             });
         }
     });
-    
 });
